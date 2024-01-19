@@ -1,0 +1,18 @@
+.flexContainer {
+  composes: sideBySideCenter from "styles/utils.module.css";
+}
+
+.title {
+  font-size: var(--display);
+  font-weight: 900;
+  letter-spacing: 0.15em;
+}
+
+.subtitle {
+  font-size: var(--small-heading2);
+}
+/* image */
+.image {
+  width: 100%;
+  background-color: var(--purple);
+}
