@@ -1,4 +1,4 @@
-import BlueFrame from "components/nested-layout";
+import BlueFrame from "components/blue-frame";
 import Meta from "components/meta";
 import Container from "components/container";
 import Hero from "components/hero";
