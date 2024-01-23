@@ -20,3 +20,4 @@ export default function Hero({ title, subtitle, imageOn = false }) {
     </div>
   );
 }
+8;
