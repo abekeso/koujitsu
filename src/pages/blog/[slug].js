@@ -17,7 +17,7 @@ import { getImageBuffer } from "lib/getImageBuffer";
 import { getPlaiceholder } from "plaiceholder";
 //ローカルの代替キャッチ画像
 import { eyecatchLocal } from "lib/constants";
-import Pagination from "../../../components/pagenation";
+import Pagination from "components/pagenation";
 
 export default function Post({
   title,
@@ -72,9 +72,9 @@ export default function Post({
         </TwoColumn>
         <Pagination
           prevText={prevPost.title}
-          prevUrl={"/blog/${prevPost.slug}"}
+          prevUrl={`/blog/${prevPost.slug}`}
           nextText={nextPost.title}
-          nextUrl={"/blog/${nextPost.slug}"}
+          nextUrl={`/blog/${nextPost.slug}`}
         />
       </article>
     </Container>
