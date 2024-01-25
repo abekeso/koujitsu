@@ -5,8 +5,10 @@ import Link from "next/link";
 export default function BlueFrame({ children }) {
   return (
     <div classname={styles.frame}>
-      <Container>{children}</Container>
-      <Link href="/blog">Recent Blog Posts</Link>
+      <Container>
+        {children}
+        <Link href="/blog">Recent Blog Posts</Link>
+      </Container>
     </div>
   );
 }

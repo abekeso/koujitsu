@@ -20,3 +20,7 @@
   padding: revert;
   list-style: revert;
 }
+.img {
+  height: 100%;
+  width: 100%;
+}
