@@ -13,8 +13,8 @@ export default function Posts({ posts }) {
               <figure>
                 <Image
                   src={eyecatch.url}
-                  fill
                   alt=""
+                  layout="fill"
                   objectFit="cover"
                   sizes="(min-width: 1152px) 576px, 50vw"
                   placeholder="blur"

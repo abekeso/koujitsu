@@ -50,15 +50,16 @@ export default function Post({
             key={eyecatch.url}
             src={eyecatch.url}
             alt=""
-            responsive
+            layout="responsive"
             width={eyecatch.width}
             height={eyecatch.height}
-            sizes="(min-width: 1152px) 1152px, 100vw"
+            sizes="(max-width: 1152px) 1152px, 100vw"
             priority
             placeholder="blur"
             blurDataURL={eyecatch.blurDataURL}
           />
         </figure>
+
         <TwoColumn>
           <TwoColumnMain>
             <PostBody>
